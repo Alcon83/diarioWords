@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import WordCard from '/components/WordCard';
+import WordCard from '../../../components/WordCard';
 import { useRouter } from 'next/navigation'; // Ajusta el importe correcto aquí
 import { signOut } from 'next-auth/react'
 import { FaPlus } from 'react-icons/fa'
