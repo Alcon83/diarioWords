@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import PostCard from '@/components/PostCard'; // Asegúrate de ajustar la ruta de importación según tu estructura
+import PostCard from '/components/PostCard'; // Asegúrate de ajustar la ruta de importación según tu estructura
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { FaPlus } from 'react-icons/fa'
